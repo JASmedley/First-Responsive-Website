@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  font-size: 400px;
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 100px;
+  }
+  content {
+    height:30vh;
+  }
+}
