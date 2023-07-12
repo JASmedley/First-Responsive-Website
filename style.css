@@ -7,13 +7,140 @@
 
 body {
   margin: 0;
-  font-size: 400px;
-  font-family: 'Lato', sans-serif;
+}
+
+Section.Section1 {
+  background-color: #4FCDC0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 300%;
+}
+
+span.bolded {
+  font-weight: bold;
+}
+
+Section.Section2 {
+  background-color: #1B1B1B;
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+  padding: 50px;
+
+}
+
+[class*="Line"] {
+  height: 30px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 15%;
+}
+
+.Line1 {
+  background-color: #4BA8DD;
+}
+
+.Line2 {
+  background-color: #F16830;
+}
+
+.Line3 {
+  background-color: #4FCDC0;
+}
+
+h2 {
+  color: white;
+  font-size: 250%;
+  font-family: serif;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+#Description {
+  font-family: Lato;
+  color: white;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 50px ;
 }
 
 @media (max-width: 576px) {
-  body {
-    font-size: 100px;
-    font-family: Open Sans;
+  
+  Section.Section1 {
+    background-color: #4BA8DD;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  h1 {
+    font-weight: normal;
+    font-size: 300%;
+    max-width: 40%;
+  }
+  
+  span.bolded {
+    font-weight: bold;
+  }
+  
+  Section.Section2 {
+    background-color: white;
+    display: block;
+    flex-flow: column wrap;
+    height: 500px;  
+  }
+  
+  [class*="Line"] {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  
+  div {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+}
+  
+  .Line1 {
+    background-color: #4BA8DD;
+  }
+  
+  .Line2 {
+    background-color: #F16830;
+  }
+  
+  .Line3 {
+    background-color: #4FCDC0;
+  }
+  
+  h2 {
+    color: #1B1B1B;
+    font-size: 250%;
+    font-family: serif;
+    font-weight: normal;
+    margin-top: 15px;
+  }
+  
+  #Description {
+    font-family: open sans;
+    color: #1B1B1B;
+    line-height: 1.5;
   }
 }
