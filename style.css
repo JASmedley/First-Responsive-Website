@@ -14,5 +14,6 @@ body {
 @media (max-width: 576px) {
   body {
     font-size: 100px;
+    font-family: Open Sans;
   }
 }
